@@ -1,4 +1,4 @@
-import { useState, useCallback, useMemo } from 'react';
+﻿import { useState, useCallback, useMemo } from 'react';
 import WeatherHeader from './components/WeatherHeader.jsx';
 import CurrentWeather from './components/CurrentWeather.jsx';
 import AlertBanner from './components/AlertBanner.jsx';
@@ -158,7 +158,7 @@ function App() {
       {/* Navigation */}
       <BottomNavigation activeNav={activeNav} onNavClick={setActiveNav} />
 
-      <style jsx>{`
+      <style>{`
         .app-container {
           position: fixed;
           inset: 0;

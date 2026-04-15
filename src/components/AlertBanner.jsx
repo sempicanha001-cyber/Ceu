@@ -1,4 +1,4 @@
-import { memo, useMemo } from 'react';
+﻿import { memo, useMemo } from 'react';
 import { getUVLabel } from '../utils/formatters.js';
 
 const AlertBanner = memo(({ weatherData }) => {
@@ -48,7 +48,7 @@ const AlertBanner = memo(({ weatherData }) => {
         <div className="alert-message">{alert.message}</div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .alert-banner {
           background: rgba(255, 255, 255, 0.13);
           border: 1px solid rgba(255, 255, 255, 0.3);

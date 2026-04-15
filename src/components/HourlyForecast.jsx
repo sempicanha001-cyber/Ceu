@@ -1,4 +1,4 @@
-import { memo, useMemo } from 'react';
+﻿import { memo, useMemo } from 'react';
 import {
   getWeatherInfo,
   formatTime,
@@ -38,7 +38,7 @@ const HourlyForecast = memo(({ hours }) => {
         ))}
       </div>
 
-      <style jsx>{`
+      <style>{`
         .hourly-section {
           animation: fadeUp 0.7s 0.25s ease both;
         }

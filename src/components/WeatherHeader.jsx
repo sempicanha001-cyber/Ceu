@@ -1,4 +1,4 @@
-import { memo } from 'react';
+﻿import { memo } from 'react';
 
 const WeatherHeader = memo(({ onSearch, isDarkMode = false }) => {
   return (
@@ -45,7 +45,7 @@ const WeatherHeader = memo(({ onSearch, isDarkMode = false }) => {
         </button>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .weather-header {
           display: flex;
           align-items: center;

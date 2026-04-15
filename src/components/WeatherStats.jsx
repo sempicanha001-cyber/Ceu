@@ -1,4 +1,4 @@
-import { memo, useMemo } from 'react';
+﻿import { memo, useMemo } from 'react';
 import {
   getUVLabel,
   getUVColor,
@@ -68,7 +68,7 @@ const WeatherStats = memo(({ weatherData }) => {
       </div>
       <div className="stats-spacer" />
 
-      <style jsx>{`
+      <style>{`
         .stats-section {
           animation: fadeUp 0.7s 0.45s ease both;
         }

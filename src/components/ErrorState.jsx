@@ -1,4 +1,4 @@
-import { memo } from 'react';
+﻿import { memo } from 'react';
 
 const ErrorState = memo(({ error, onRetry, isDarkMode = false }) => {
   const getErrorMessage = (errorMsg) => {
@@ -32,7 +32,7 @@ const ErrorState = memo(({ error, onRetry, isDarkMode = false }) => {
         </button>
       )}
 
-      <style jsx>{`
+      <style>{`
         .error-container {
           display: flex;
           flex-direction: column;

@@ -1,4 +1,4 @@
-import { memo, useMemo } from 'react';
+﻿import { memo, useMemo } from 'react';
 import {
   getWeatherInfo,
   formatDayName,
@@ -35,7 +35,7 @@ const DailyForecast = memo(({ days }) => {
         ))}
       </div>
 
-      <style jsx>{`
+      <style>{`
         .daily-section {
           animation: fadeUp 0.7s 0.35s ease both;
         }

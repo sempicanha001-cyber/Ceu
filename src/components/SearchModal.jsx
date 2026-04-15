@@ -1,4 +1,4 @@
-import { memo, useRef, useEffect, useState } from 'react';
+﻿import { memo, useRef, useEffect, useState } from 'react';
 import { useSearchCities } from '../hooks/useWeather.js';
 
 const SearchModal = memo(({
@@ -135,7 +135,7 @@ const SearchModal = memo(({
         )}
       </div>
 
-      <style jsx>{`
+      <style>{`
         .search-modal {
           position: absolute;
           inset: 0;

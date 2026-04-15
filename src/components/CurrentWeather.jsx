@@ -1,4 +1,4 @@
-import { memo, useMemo } from 'react';
+﻿import { memo, useMemo } from 'react';
 import {
   getWeatherInfo,
   formatTemperature,
@@ -72,7 +72,7 @@ const CurrentWeather = memo(({ weatherData, onLocationClick }) => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .current-weather {
           animation: fadeUp 0.7s ease both;
         }

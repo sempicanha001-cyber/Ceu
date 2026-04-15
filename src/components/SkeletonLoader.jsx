@@ -1,4 +1,4 @@
-import { memo } from 'react';
+﻿import { memo } from 'react';
 
 const SkeletonLoader = memo(({ type = 'full' }) => {
   if (type === 'full') {
@@ -34,7 +34,7 @@ const SkeletonLoader = memo(({ type = 'full' }) => {
           ))}
         </div>
 
-        <style jsx>{`
+        <style>{`
           .skeleton-container {
             animation: fadeUp 0.3s ease;
           }

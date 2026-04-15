@@ -1,5 +1,5 @@
 import { memo } from 'react';
-import { NAV_ITEMS } from '../utils/constants.js';
+import { NAV_ITEMS } from '../utils/navItems.jsx';
 
 const BottomNavigation = memo(({ activeNav, onNavClick }) => {
   const scrollToSection = (targetId) => {
@@ -41,7 +41,7 @@ const BottomNavigation = memo(({ activeNav, onNavClick }) => {
         </button>
       ))}
 
-      <style jsx>{`
+      <style>{`
         .bottom-nav {
           position: fixed;
           bottom: 0;

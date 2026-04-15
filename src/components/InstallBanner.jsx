@@ -1,4 +1,4 @@
-import { memo } from 'react';
+﻿import { memo } from 'react';
 
 const InstallBanner = memo(({ onInstall, onDismiss }) => {
   return (
@@ -27,7 +27,7 @@ const InstallBanner = memo(({ onInstall, onDismiss }) => {
         </button>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .install-banner {
           position: fixed;
           bottom: 90px;
